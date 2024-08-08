@@ -1,0 +1,44 @@
+.mainContent {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+
+.font{
+    color: #061826;
+    background: none;
+    font-size: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.container{
+    background-color: #E6D6C1;
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid #061826;
+    box-shadow: 0 10px 50px 10px rgba(0, 0, 0, 0.247);
+    align-items: center;
+}
+
+.logoImg{
+    height: 40px;
+}
+
+.acessibilidade, .logo, .help{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    font-size: 20px;
+}
+
+.help{
+    gap: 10px;
+}

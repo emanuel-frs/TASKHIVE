@@ -1,0 +1,58 @@
+.title, .addTable{
+    background-color: rgba(6, 24, 38, 0.6);
+    color: #F1E4CD;
+}
+
+.tableContainer {
+    background-color: #061826;
+}
+
+.tableTitle,
+.tableHeader{
+    color: #F1E4CD;
+}
+
+.addButton{
+    background: none;
+    color: #F1E4CD;
+    border: 2px solid #A67B5B;
+}
+
+.mais{
+    color: #F82525;
+}
+
+.card{
+    background-color: #1A303F;
+    color: #F1E4CD;
+}
+
+.inputTitle,
+.inputCard,
+.inputName,
+.inputField,
+.inputAddTable {
+    background-color: #061826;
+    color: #F1E4CD;
+}
+
+.inputTitle::placeholder,
+.inputCard::placeholder,
+.inputName::placeholder,
+.inputField::placeholder,
+.inputAddTable::placeholder {
+    color: #A67B5B;
+}
+
+.tablesContainer::-webkit-scrollbar-thumb {
+    background-color: #061826;
+}
+
+.modalContent{
+    background-color: #061826;
+}
+
+.modalRemoveTag{
+    background-color: #F1E4CD;
+    color: #061826;
+}

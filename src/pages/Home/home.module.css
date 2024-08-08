@@ -1,0 +1,346 @@
+.mainContaint {
+    background-image: url('../../assets/novoBackground.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top:5rem;
+    position: fixed;
+    height: 100vh;
+}
+
+.searchIcon{
+    background-color: #061826;
+    height: 2.5rem;
+    width: 10vw;
+    max-width: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .625rem 0 0 .625rem;
+    border: .125rem solid #061826;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.input{
+    padding: .6875rem;
+    width: 70vw;
+    max-width: 21.875rem;
+    background-color: #061826;
+    border-radius: 0 .625rem .625rem 0;
+    border: .125rem solid #061826;
+    border-left: 0;
+    color: #E6D6C1;
+}
+
+.input::placeholder{
+    color: #7E695C;
+}
+
+.create{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    padding: 0 .5rem;
+    background-color: #028391;
+    font-size: .875rem;
+    width: 84vw;
+    max-width: 18.75rem;
+    min-height: 2.5rem;
+    border: .125rem solid #028391;
+    border-radius: .625rem;
+}
+
+.create:hover{
+    color: #028391;
+    background-color: #061826;
+    border: .125rem solid #028391;
+    cursor: pointer;
+}
+
+.projectCard {
+    border-radius: 1.25rem; 
+    background-color: #E6D6C1;
+    box-shadow: 0 0rem .625rem rgba(0, 0, 0, 0.5);
+    display: flex;
+    margin: 0rem 0 .625rem 0;
+    max-height: 7.5rem;
+    width: 90vw;
+    max-width: 56.25rem;
+}
+
+.projectCard img {
+    border-radius: .9375rem;
+    border-bottom-right-radius: 0;
+    background-color: #E6D6C1;
+    margin-right: .625rem;
+    width: 7.5rem;
+    height: 7.5rem;
+    border: .25rem solid #E6D6C1;
+}
+
+.projectCard button {
+    margin: .3125rem;
+}
+
+.modal {
+    background: #E6D6C1;
+    border-radius: .9375rem;
+    padding: 1.25rem;
+    width: 80%;
+    max-width: 31.25rem;
+    margin: auto;
+    position: relative;
+    color: #061826;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageSelected{
+    padding: .625rem;
+    margin-top: .625rem;
+    margin-bottom: 1.25rem;
+    border-radius: .625rem;
+    background-color: #061826;
+    color: #A67B5B;
+    border: .125rem solid #A67B5B;
+    cursor: pointer;
+}
+
+.imagePickerButton{
+    padding: .625rem;
+    margin-top: .625rem;
+    border-radius: .625rem;
+    background-color: #A67B5B;
+    color: #061826;
+    border: .125rem solid #A67B5B;
+    cursor: pointer;
+}
+
+.imagePickerButton:hover{
+    background-color: #061826;
+    color: #A67B5B;
+    border: .125rem solid #A67B5B;
+}
+
+.inputs{
+    margin: .625rem 0 0 0;
+    background-color: #061826;
+    padding: .625rem;
+    border-radius: .625rem;
+    color: #7E695C;
+    font-size: 1rem;
+}
+
+.inputs::placeholder{
+    color: #444444;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    justify-content: center;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.closeButton {
+    position: absolute;
+    top: .625rem;
+    right: .625rem;
+    background: none;
+    border: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.imageOption,
+.imagem{
+    min-width: 9.375rem;
+    max-width: 9.375rem;
+    min-height: 6.875rem;
+    max-height: 6.875rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cards{
+    overflow-y: auto;
+    width: 100vw;
+    max-height: 77vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .625rem;
+    padding-top: .625rem;
+}
+
+.imageGallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: .625rem;
+    width: 100%;
+    gap: .625rem;
+}
+
+.barra{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+}
+
+.cards::-webkit-scrollbar {
+    width: .625rem;
+}
+
+.cards::-webkit-scrollbar-thumb {
+    background-color: #061826;  
+    border-radius: .625rem;
+}
+
+.textos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .625rem .3125rem;
+    color: #061826;
+}
+
+.textos p{
+    max-width: 12.5rem;
+    text-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.configs{
+    display: flex;
+    margin: .625rem;
+    border-radius: .625rem;
+    min-height: 100%;
+    padding: 0 .625rem;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: .625rem;
+}
+
+.createModal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    padding: 0 .5rem;
+    background-color: #028391;
+    font-size: .875rem;
+    min-height: 2.5rem;
+    border-radius: .625rem;
+    justify-content: center;
+    margin-top: 1.875rem;
+    border: .125rem solid #028391;
+    cursor: pointer;
+}
+
+.createModal:hover{
+    color: #028391;
+    background-color: #061826;
+    border: .125rem solid #028391;
+}
+
+.descricao{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-wrap: break-word;
+    max-height: 3.6em;
+    line-height: 1.2em;
+    color: #7E695C;
+}
+
+@media (max-width: 46.875rem){
+    .barra{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container{
+        max-height: 100vh;
+    }
+}
+
+@media (max-width: 31.25rem){
+    .searchIcon{
+        height: 1.875rem;
+    }
+
+    .input{
+        padding: .375rem;
+    }
+
+    .projectCard{
+        max-height: 6.25rem;
+    }
+
+    .descricao{
+        display: none;
+    }
+
+    .titulo{
+        font-size: 1rem;
+    }
+
+    .imageOption,
+    .imagem{
+        min-width: 7.5rem;
+        max-width: 7.5rem;
+        min-height: 5.625rem;
+        max-height: 5.625rem;
+        object-fit: cover;
+    }
+
+    .configs{
+        padding: 0;
+    }
+}
+
+@media (max-width: 23.4375rem){
+    .create{
+        width: 80vw;
+    }
+
+    .textos{
+        text-wrap: wrap;
+    }
+
+    .titulo{
+        max-width: 5rem;
+        text-wrap: wrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+        word-wrap: break-word;
+        max-height: 3.5em;
+        line-height: 1.2em;
+    }
+
+    .configs{
+        width: 100%;
+        align-items: flex-end;
+    }
+}

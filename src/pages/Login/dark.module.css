@@ -1,0 +1,39 @@
+.mainContaint{
+    background-image: url('../../assets/novoBackgroundDark.png');
+}
+
+.container{
+    border: 2px solid #061826;
+    background-color: #061826;
+    box-shadow: 0 0px 40px 5px rgba(0, 0, 0, 0.5);
+    background: transparent;
+    backdrop-filter: blur(2px);
+}
+
+.span{
+    color: #E6D6C1;
+}
+
+.input{
+    background-color: #E6D6C1;
+    color: #061826;
+}
+
+.input::placeholder{
+    color: #7E695C;
+}
+
+.registrar{
+    background-color: #A67B5B;
+    border: 2px solid #A67B5B;
+    color: #ffffff;
+}
+
+.entrar{
+    background-color: #2B505C;
+    color: #E6D6C1;
+}
+
+.cancelar{
+    color: #E6D6C1;
+}

@@ -1,0 +1,66 @@
+.mainContaint{
+    background-image: url('../../assets/novoBackgroundDark.png');
+}
+
+.searchIcon{
+    background-color: #E6D6C1;
+    border: 2px solid #E6D6C1;
+}
+
+.input{
+    border: 2px solid #E6D6C1;
+    background-color: #E6D6C1;
+    border-left: 0;
+    color: #061826;
+}
+
+.input::placeholder{
+    color: #7E695C;
+}
+
+.create{
+    color: #E6D6C1;
+    background-color: #2B505C;
+    border: 2px solid #2B505C;
+}
+
+.create:hover{
+    color: #A67B5B;
+    background-color: #061826;
+    border: 2px solid #A67B5B;
+}
+
+.projectCard {
+    background-color: #061826;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+.cards::-webkit-scrollbar-thumb {
+    background-color: #FFD468; 
+}
+
+.textos{
+    color: #E6D6C1;
+}
+
+.descricao{
+    color: #A67B5B;
+}
+
+.projectCard img {
+    background-color: #061826;
+    border: 4px solid #061826;
+}
+
+.modal{
+    background-color: #061826;
+    color: #E6D6C1;
+}
+
+.inputs{
+    background-color: #E6D6C1;
+}
+
+.inputs::placeholder{
+    color: #7E695C;
+}

@@ -1,0 +1,143 @@
+.mainContaint {
+    background-image: url('../../assets/novoBackground.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.container {
+    width: 90vw;
+    max-width: 400px;
+    height: 80vh;
+    max-height: 500px;
+    border-radius: 15px;
+    background-color: #E6D6C1;
+    box-shadow: 0 0px 40px 5px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(2px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 0 30px;
+}
+
+.imagem {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.logo {
+    width: 150px;
+}
+
+.span {
+    color: #061826;
+}
+
+.inputField {
+    margin-top: 10px;
+    padding: 10px;
+    width: 70vw;
+    max-width: 320px;
+    background-color: #061826;
+    border-radius: 5px;
+    color: #E6D6C1;
+}
+
+.input {
+    padding: 0 0 10px 0;
+}
+
+.inputField::placeholder {
+    color: #7E695C;
+    opacity: 1;
+    font-size: 15px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    width: 100%;
+    flex: 1;
+}
+
+.footerR {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.check {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.buttonsR {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+    flex: 1;
+}
+
+.entrar {
+    padding: 10px 30px;
+    background-color: #01424E;
+    color: #E6D6C1;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.registrar {
+    border: 2px solid #061826;
+    background-color: #061826;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #E6D6C1;
+    cursor: pointer;
+}
+
+.cancelar {
+    background-color: #98092B;
+    font-size: 18px;
+    padding: 10px 38px;
+    border-radius: 10px;
+    color: #E6D6C1;
+    cursor: pointer;
+    height: 47px;
+}
+
+@media (max-width: 384px){
+    .entrar, .registrar, .cancelar{
+        padding: 10px 20px;
+    }
+}
